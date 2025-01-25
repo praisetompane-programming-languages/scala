@@ -1,3 +1,3 @@
 # larger implementations to test understanding of the language and its strengths/weaknesses
 
-1. app_project_x_scala: https://github.com/praisetompane/app_project_x_scala
+1. app_scala_quickstart_cli: https://github.com/praisetompane-utilities/app_scala_quickstart_cli

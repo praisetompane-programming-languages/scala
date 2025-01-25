@@ -1,6 +1,6 @@
 import scala.collection.mutable.ArrayBuffer
 
-def filter(delim: Int, arr: Iterable[Int]): Iterable[Int] = {
+def filter(delim: Int, arr: Iterable[Int]): Iterable[Int] = 
   val results = ArrayBuffer[Int]()
   arr.foreach { num =>
     if (num < delim) {
@@ -9,9 +9,9 @@ def filter(delim: Int, arr: Iterable[Int]): Iterable[Int] = {
     }
   }
   results.toList
-}
 
-@main def main() = {
+
+@main def main() = 
   println("using custom code")
   val numbers = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
   val delim = 7
@@ -19,4 +19,3 @@ def filter(delim: Int, arr: Iterable[Int]): Iterable[Int] = {
 
   println("using standard scala library")
   println(numbers.filter(num => num < delim))
-}

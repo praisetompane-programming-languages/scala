@@ -1,4 +1,6 @@
-# an in-depth study of Scala
+# Scala
+
+**objective**: an in-depth study of Mojo, its implementation and ecosystem.
 
 * language reference: https://docs.scala-lang.org/scala3/reference/
 * base modules index: https://scala-lang.org/api/3.x/e

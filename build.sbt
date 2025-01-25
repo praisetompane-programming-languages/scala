@@ -2,10 +2,10 @@ lazy val root = (project in file(".")).settings(
   inThisBuild(
     List(
       organization := "com.praise",
-      scalaVersion := "3.*.*"
+      scalaVersion := "3.3.1"
     )
   ),
-  name := "learn-scala"
+  name := "scala"
 )
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % Test

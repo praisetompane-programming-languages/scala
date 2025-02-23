@@ -1,9 +1,12 @@
 # Scala
 
-**objective**: An in-depth study of Scala's implementation and ecosystem.
+**objective**: An in-depth study of Scala's design, implementation and ecosystem.
 
 ## Language Details: 
 - [language reference](https://docs.scala-lang.org/scala3/reference/)
+- [compiler]: 
+    - [Scala 3](https://github.com/scala/scala3)
+    - [Scala 2.13.*](https://github.com/scala/scala)
 - [base modules index](https://scala-lang.org/api/3.x/e)
 - [standard library reference](https://www.scala-lang.org/api/current/index.html)
 - packaging and package management:
@@ -14,9 +17,6 @@
     - [third party modules/packages index](https://index.scala-lang.org/)
 - [extending and embedding]:
 - [developer contribution guide]:
-- [compiler/interpreter]: 
-    - [Scala 3](https://github.com/scala/scala3)
-    - [Scala 2.13.*](https://github.com/scala/scala)
 
 ## Testing:
 
@@ -35,5 +35,10 @@
 
 
 ## References:
+
+## Legend:
+**Q**: Question for later research
+
+**MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
